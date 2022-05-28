@@ -20,10 +20,11 @@ int birthdayCakeCandles(vector<int> candles) {
     for(i=0;i<candles.size();i++)
     {
         if(max < candles[i])
+        {
             max = candles[i];
-    }
-    for(i=0;i<candles.size();i++)
-    {
+            count = 0;
+        }
+            
         if(candles[i] == max)
             count++;
     }
