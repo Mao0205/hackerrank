@@ -5,7 +5,7 @@ class Recode{
     Recode():count(0){};
     //Recode():count(0),relation({1,2,3}){};
     //Recode():count(0),relation({}){};
-}
+};
 
 class Recode1 {
 public:
